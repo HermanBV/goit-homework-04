@@ -210,9 +210,6 @@ img {
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
-}
-
-.about-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,9 +227,11 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .about-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .about-title-item {
   font-weight: 500;
   font-size: 20px;
@@ -240,14 +239,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   margin-bottom: 8px;
-}
-
-.title-offers {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
 
 /* ---------------------offers---------------- */
@@ -387,10 +378,6 @@ img {
   color: #404bbf;
 }
 
-.contacts {
-  font-style: normal;
-}
-
 .contact-item {
   color: var(--primary-text-color);
 }
@@ -445,7 +432,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.list-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -454,7 +441,7 @@ img {
   margin-bottom: 8px;
 }
 
-.paragraf {
+.portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
