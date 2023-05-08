@@ -105,9 +105,7 @@ img {
   display: flex;
   padding: 0;
 }
-.main {
-  margin-right: 40px;
-}
+
 .logo {
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -123,24 +121,8 @@ img {
   color: var(--title-text-color);
 }
 
-.list-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: flex;
-}
-
 .logo:hover,
 .logo:focus {
-  color: #404bbf;
-}
-
-.list-item:hover,
-.list-item:focus {
   color: #404bbf;
 }
 
