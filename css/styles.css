@@ -402,6 +402,11 @@ img {
   border-color: #404bbf;
 }
 /* ---------------footer--------------- */
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer {
   background-color: var(--title-text-color);
   padding: 100px 0;
