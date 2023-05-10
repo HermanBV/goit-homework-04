@@ -356,6 +356,9 @@ img {
   background-color: #404bbf;
 }
 
+.svg-img {
+  fill: var(--button-back-color);
+}
 /* ---------------Customers-------------- */
 .customers {
   padding-top: 120px;
