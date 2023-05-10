@@ -399,6 +399,7 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   color: #404bbf;
+  border-color: #404bbf;
 }
 /* ---------------footer--------------- */
 .footer {
