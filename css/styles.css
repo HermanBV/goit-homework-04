@@ -385,7 +385,7 @@ img {
   height: 88px;
 }
 
-.customer-link {
+.customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -396,8 +396,8 @@ img {
   color: var(--customers-link-color);
 }
 
-.customer-link:hover,
-.customer-link:focus {
+.customers-link:hover,
+.customers-link:focus {
   color: #404bbf;
 }
 /* ---------------footer--------------- */
