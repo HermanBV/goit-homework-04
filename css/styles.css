@@ -9,6 +9,7 @@
   --accent-color: #4d5ae5;
   --primary-white-color: #ffffff;
   --button-back-color: #f4f4fd;
+  --customers-link-color: #8e8f99;
 }
 /*------------------BODY------------------*/
 body {
@@ -374,9 +375,30 @@ img {
   margin-bottom: 72px;
 }
 
-.clients-item {
+.customers-items {
   display: flex;
   gap: 24px;
+}
+
+.customers-img {
+  width: calc(100% - 120px) / 6;
+  height: 88px;
+}
+
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--customers-link-color);
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  color: #404bbf;
 }
 /* ---------------footer--------------- */
 .footer {
