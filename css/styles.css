@@ -367,10 +367,16 @@ img {
 .customers-title {
   font-size: 36px;
   text-align: center;
-  line-height: 1.11;
+  line-height: 1.1;
+  color: var(--title-text-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.clients-item {
+  display: flex;
+  gap: 24px;
 }
 /* ---------------footer--------------- */
 .footer {
