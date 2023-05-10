@@ -89,6 +89,7 @@ img {
   display: flex;
   align-items: center;
 }
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -187,6 +188,7 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -216,9 +218,10 @@ img {
   text-align: center;
   margin: 0;
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 
-.about-img-astronaut {
+.about-img-icon {
   width: 64px;
   height: 64px;
 }
@@ -409,6 +412,8 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-selection:hover,
@@ -424,6 +429,10 @@ img {
   flex-wrap: wrap;
 }
 
+.portfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
 }
@@ -451,19 +460,6 @@ img {
   margin-right: 0;
 }
 /* --------------------portfolio footer-------------------- */
-.portfolio-ftr {
-  background-color: var(--title-text-color);
-}
-
-.portfolio-ftr-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent-color);
-}
 
 .studio-color {
   color: var(--button-back-color);
