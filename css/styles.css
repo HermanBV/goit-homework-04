@@ -401,6 +401,10 @@ img {
   color: #404bbf;
   border-color: #404bbf;
 }
+
+.client-svg {
+  fill: currentColor;
+}
 /* ---------------footer--------------- */
 
 .footer {
