@@ -402,18 +402,12 @@ img {
   border-color: #404bbf;
 }
 /* ---------------footer--------------- */
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
 .footer {
   background-color: var(--title-text-color);
   padding: 100px 0;
 }
 
-.footer-box {
-  gap: 120px;
-}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -435,23 +429,8 @@ img {
   max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-right: 0;
-}
-.footer-socials {
-  margin-left: 540px;
-  display: flex;
-  max-width: 96px;
-  max-height: 24px;
 }
 
-.footer-socials-text {
-  width: 96px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
 /* -------------------Portfolio------------------ */
 /* -------------------header--------------------- */
 
