@@ -225,6 +225,9 @@ img {
 .about-img-icon {
   width: 64px;
   height: 64px;
+  left: 100px;
+  top: 24px;
+  fill: #404bbf;
 }
 
 .about-list {
@@ -406,7 +409,6 @@ img {
   display: flex;
   align-items: baseline;
 }
-
 .footer {
   background-color: var(--title-text-color);
   padding: 100px 0;
