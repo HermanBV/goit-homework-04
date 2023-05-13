@@ -439,7 +439,9 @@ img {
   display: flex;
   align-items: baseline;
 }
-
+.container {
+  margin-right: 120px;
+}
 /* -------------------Portfolio------------------ */
 /* -------------------header--------------------- */
 
