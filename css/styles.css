@@ -438,8 +438,6 @@ img {
 .footer-box {
   display: flex;
   align-items: baseline;
-}
-.logo-box {
   margin-right: 120px;
 }
 
