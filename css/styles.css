@@ -438,7 +438,9 @@ img {
 .footer-box {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+}
+logo-box {
+  gap: 120px;
 }
 
 .footer-subtitle {
