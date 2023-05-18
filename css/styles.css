@@ -435,10 +435,14 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-box {
+.logo-box {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
+}
+
+.socia-box {
+  gap: 120px;
 }
 
 .footer-subtitle {
